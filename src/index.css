@@ -1,0 +1,60 @@
+:root {
+  color-scheme: only light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Symbols', sans-serif !important;
+}
+
+
+code {
+  font-family: 'Noto Sans Symbols', sans-serif !important;
+  font-weight: unset !important;
+}
+
+.nav-link.active:focus,
+.nav-link.active:active,
+.nav-link.active:visited{
+  color: #435aff !important;
+}
+
+.swal2-title{
+  color: black !important;
+}
+
+.btn-close{
+  color: #FFFFFF !important;
+  background: transparent url('../src/image/exit.webp') center/1em auto no-repeat !important;
+}
+
+.navbar-toggler-icon{
+  background-image: url('../src/image/menu.webp') !important;
+}
+
+body[dir='rtl']{
+  font-family: 'Cairo', sans-serif !important;
+}
+
+/*  */
+
+.file-input {
+  display: none;
+}
+
+.file-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #eee;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  line-height: 30px;
+}
+
+.file-icon i {
+  color: #333;
+}

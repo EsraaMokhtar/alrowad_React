@@ -1,0 +1,140 @@
+
+
+  #abouts-testimonoals .item {
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 30px;
+    transform: scale3d(0.8, 0.8, 1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  
+  #abouts-testimonoals .item p,
+  #abouts-testimonoals .item img,
+  #abouts-testimonoals .item h5
+  {
+    opacity: 0.4;
+    transition: all 0.3s ease-in-out;
+  }
+
+    
+  #abouts-testimonoals .owl-item.active.center p,
+  #abouts-testimonoals .owl-item.active.center img,
+  #abouts-testimonoals .owl-item.active.center h5
+  {
+    opacity: 1;
+  }
+
+  #abouts-testimonoals .owl-item.active.center .item {
+    transform: scale3d(1.0, 1.0, 1);
+  }
+  
+
+
+  .owl-theme .owl-dots .owl-dot.active span, 
+  .owl-theme .owl-dots .owl-dot:hover span {
+    background: #FFFFFF;
+    transform: translate3d(0px, -50%, 0px) scale(0.8);
+  }
+
+  .owl-carousel .owl-dots {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .owl-carousel .owl-dots .owl-dot{ 
+    display: inline-block;
+  }
+
+  .owl-carousel .owl-dots .owl-dot span{ 
+    background: #FFFFFF;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 2px 5px;
+    transform: translate3d(0px, -50%, 0px) scale(0.3);
+    transform-origin: 50% 50% 0;
+    transition: all 250ms ease-out 0s;
+    border-radius: 30px !important;
+  } 
+
+
+  @media only screen and (min-width: 600px) {
+    #abouts-testimonoals .item {
+      text-align: center;
+      padding: 0px;
+      margin-right: 10px !important;
+      transform: scale3d(0.8, 0.8, 1);
+      transition: all 0.3s ease-in-out;
+    }
+  
+  }
+
+
+
+  
+  #two-testimonoals .item {
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 30px;
+    transform: scale3d(0.8, 0.8, 1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  
+  #two-testimonoals .item img
+  {
+    opacity: 0.4;
+    transition: all 250ms ease-out 0s;
+  }
+
+    
+  #two-testimonoals .owl-item.active.center img
+  {
+    opacity: 1;
+  }
+
+  #two-testimonoals  .owl-item.active.center .item {
+    transform: scale3d(1.0, 1.0, 1);
+  }
+  
+
+  .owl-theme-two .owl-dots .owl-dot.active span, 
+  .owl-theme-two  .owl-dots .owl-dot:hover span {
+    background: #FFFFFF;
+    transform: translate3d(0px, -50%, 0px) scale(0.8);
+  }
+
+   .owl-carousel .owl-dots {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+
+  .owl-carousel .owl-dots .owl-dot{ 
+    display: inline-block;
+  }
+
+  .owl-carousel .owl-dots .owl-dot span{ 
+    background: #FFFFFF;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 2px 5px;
+    transform: translate3d(0px, -50%, 0px) scale(0.3);
+    transform-origin: 50% 50% 0;
+    transition: all 250ms ease-out 0s;
+    border-radius: 30px !important;
+  } 
+
+  .tooltip > div.tooltip-inner {
+    background-color: white !important;
+    color: #435aff !important;
+    font-weight: 600 !important;
+  }
+
+  .bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: white !important;
+}
